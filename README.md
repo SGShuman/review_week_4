@@ -29,16 +29,15 @@ psql sales
 
  and try answer these questions.
 
- I'll do my best to explain window functions.  I learned it from ![here](http://www.postgresql.org/docs/9.1/static/tutorial-window.html) so you can follow along.
+ I'll do my best to explain window functions.  I learned it from <a href=http://www.postgresql.org/docs/9.1/static/tutorial-window.html> here <\a> so you can follow along.
 
 ### Questions
 
- 1. Write a cumulative sum with a window function. (You should have an OVER clause)
- 2. By month, which product type sold more. (You should use the RANK() function.)
- 3. Create a monthly running total by product type.
- 4. Use CASE to sum up only Jan and Feb sales by type.
-
- Answers are in the sql_practice.sql file.
+1. Write a cumulative sum with a window function. (You should have an OVER clause)
+2. By month, which product type sold more. (You should use the RANK() function.)
+3. Create a monthly running total by product type.
+4. Use CASE to sum up only Jan and Feb sales by type.
+Answers are in the sql_practice.sql file.
 
 ## Documentation Practice
 Pop open the ipython notebook, we are going to talk about writing code using documentation you know nothing about.
