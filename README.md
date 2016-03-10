@@ -22,14 +22,14 @@ Super quick review of what we just did.  First, you got postgres started by sear
 
 So we have a sales database, and a sales table inside that database.  We also have a file called sales.sql that creates the table and inserts data into it.
 
-Now, start psql again inside the sales DATABASE:
+Now, start psql again inside the sales database:
 ```python
 psql sales
 ```
 
  and try answer these questions.
 
- I'll do my best to explain window functions.  I learned it from <a href=http://www.postgresql.org/docs/9.1/static/tutorial-window.html> here <\a> so you can follow along.
+ I'll do my best to explain window functions.  I learned it from <a href=http://www.postgresql.org/docs/9.1/static/tutorial-window.html> here </a> so you can follow along.
 
 ### Questions
 
@@ -37,6 +37,7 @@ psql sales
 2. By month, which product type sold more. (You should use the RANK() function.)
 3. Create a monthly running total by product type.
 4. Use CASE to sum up only Jan and Feb sales by type.
+
 Answers are in the sql_practice.sql file.
 
 ## Documentation Practice
